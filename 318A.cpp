@@ -1,10 +1,11 @@
+ 
  //BISMILLAHIR RAHMANIR RAHIM
 /*
 Do DEEN, keep SMILE :) 
  Author :: A R Ashik
 .............CUET_CSE17.........
  */
-
+/*
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -76,4 +77,32 @@ int main(){
  solve(even,odd,v,k);	
  return 0;
 }
+*/
 
+//BISMILLAHIR RAHMANIR RAHIM
+/*
+Do DEEN, keep SMILE :) 
+ Author :: A R Ashik
+.............CUET_CSE17.........
+ */
+
+#include<bits/stdc++.h>
+using namespace std;
+
+long long try2,ans1,ans2;
+double n,k,try1;
+
+int main(){
+	cin>>n>>k;
+    try1 = n/2;
+	try2 = ceil(try1);
+
+	if(k > try2){
+		ans1 = k - try2;
+		ans2 = 2*ans1;
+	}
+	else
+	ans2 = 2*k-1;
+	cout<<ans2<<endl;
+	return 0;
+}
