@@ -10,7 +10,7 @@ import java.io.BufferedReader;
  *
  * @author Asus
  */
-public class acmsguru_99999_122_a {
+public class acmsguru_99999_122{
    public static void main(String[] args){
        Scanner input = new Scanner(System.in);
        
